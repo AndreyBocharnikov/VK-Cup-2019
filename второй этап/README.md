@@ -53,10 +53,6 @@
 
 Метрика – Smoothed Mean Log Accuracy Ratio, переведенная в проценты.
 
-$$ 100\% \cdot \left( \exp \left( \frac{1}{n} \sum_{i=1}^{n}\left|\log\left(\frac{ Predicted_i + \epsilon}{Actual_i + \epsilon}\right)\right| \right) - 1 \right) $$
-
-$\epsilon = 0.005$
-
 ![metric formula](metric.png "формула в виде картинки")
 
 EPS = 0.005
